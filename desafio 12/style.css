@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+:root {
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One';
+    --fonte03: 'Sriracha', cursive;
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(Sriracha-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Passion One';
+    src: url(PassionOne-Bold.ttf) format(truetype);
+}
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+}
+header {
+    height: 300px;
+    padding: 40px 0px 0px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+header > h1 {
+    font-size: 10vh;
+    font-family: var(--fonte02);
+    margin: 0px;
+}
+#cm {
+    font-size: 1.5em;
+}
+header > h2 {
+    font-size: 1em;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+header a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--fonte01);
+
+}
+a#h:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+section.normal {
+    margin: 10px;
+    padding: 2.5vh;
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
+    text-align: left;
+    padding-bottom: 2em;
+    line-height: 2em;
+}
+section#s2 {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 242, 225);
+    background-position: center center;
+    padding: 5vh 0vh 5vh 0vh;
+}
+.pespecial {
+    margin-top: 15vh;
+}
+.pimg {
+    margin-left: 2vh;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.521);
+    font-size: 3.5vw;
+    color: white;
+    max-width: max-content;
+    line-height: 2em;
+}
+section#s3 {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 242, 225);
+    background-position: center center;
+    padding: 5vh 0vh 5vh 2vh;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 1vh;
+}
+footer > p {
+    margin: 0px;
+}
+a#git {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a#git:hover {
+    text-decoration: underline;
+}
